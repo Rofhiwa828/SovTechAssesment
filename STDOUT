@@ -1,0 +1,15 @@
+@run
+Feature: Contact Us Page Feature
+
+  Scenario Outline: Verify that the contact form can be submitted successfully with all required fields filled in correctly. # Feature Files/SovTechFeatures/ContactUsFeature.feature:4
+    Given Given the User is on the contact us page
+    And User Enter Full Name "<FullName>"
+    And User Enter email "<Email>"
+    And User Enter Mobile number "<MobileNumber>"
+    And User Selects Company size "<CompanySize>"
+    And User Selects the type of service "<Services>"
+    And User Enter how can we help you text "<HelpText>"
+    When The user clicks on the Send message button
+    Then A success Message is displayed
+
+    Examples: 
