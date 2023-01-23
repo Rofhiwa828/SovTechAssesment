@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mobiquity-api-restAssured" />
         <module name="EB-Api-Automation-Testing-Framework" />
+        <module name="SovTechAssesment" />
         <module name="SovTech" />
       </profile>
     </annotationProcessing>
